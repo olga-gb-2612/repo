@@ -11,7 +11,6 @@ for i in lst:
 print(set1)
 
 
-
 # если дан словарь сразу, а не как выше список словарей
 # my_dict = {'a': 1, 'b': 2, 'c': 3, 'd': 2, 'e': 1}
 # unique_values = set()
