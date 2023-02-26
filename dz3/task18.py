@@ -10,7 +10,7 @@ N = int(input("введите кол-во элементов в массиве: 
 A = []
 for element in input(f'Введите через пробел {N} элементов: ').split():
      A.append(int(element))
-if len(A) != N or N == 0:
+if N != len(A) or N == 0:
     print('Ошибка!')
 else:
     X = int(input('Введите число для сравнения: '))
