@@ -19,5 +19,4 @@ M = []
 for i in range(C[1]):
      M.append(randint(1,20))
 print(M)
-#i = set(N).intersection(set(M))
 print(sorted(set(N).intersection(set(M))))

@@ -17,6 +17,7 @@ else:
     min = abs(X - A[0])
     index = 0
     for i in range(1, N):
+        print(i)
         count = abs(X - A[i])
         if count < min:
             min = count
