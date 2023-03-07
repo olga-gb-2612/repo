@@ -12,10 +12,10 @@ for i in range(N):
      x.append(randint(-20,20))
 print(x)
 diap = []
-for element in input(f'Введите через пробел границы: ').split():
+for element in input(f'Введите через пробел границы диапазона: ').split():
      diap.append(int(element))
 new=[]
 for i in range(N):
-    if x[i]>diap[0] and x[i]<diap[1]:
+    if x[i]>=diap[0] and x[i]<=diap[1]:
             new.append(i)
 print(new)
