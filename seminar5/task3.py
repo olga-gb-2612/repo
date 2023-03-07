@@ -1,3 +1,5 @@
+# Замена макс числа на минимальные
+
 from random import randint
 
 def change_list(lst):

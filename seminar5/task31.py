@@ -1,7 +1,7 @@
 # Требуется найти N-е число Фибоначчи
 
 def fib(n):
-    if n in [1, 2]:
+    if n == 0 or n == 1:
         return 1
     return fib(n - 1) + fib(n - 2)
 
