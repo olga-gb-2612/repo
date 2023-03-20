@@ -16,7 +16,7 @@
 def print_operation_table(operation, num_rows, num_сolumns):
     for row in range(1,num_rows+1):
         for col in range(1, num_сolumns+1):
-           print(operation(row,col), end = ' ')
+           print(str(operation(row,col)).rjust(4), end = ' ')
         print()
 line = int(input("Введите количество строк: "))
 columns = int(input("Введите количество столбцов: "))
